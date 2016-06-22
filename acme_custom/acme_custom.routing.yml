@@ -1,0 +1,7 @@
+acme_custom.readme:
+  path: '/acme-install-complete'
+  defaults:
+    _title: 'Welcome to Lightning + Acme!'
+    _controller: '\Drupal\acme_custom\Controller\AcmeController:welcome'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,10 @@
+# Defines additional tasks for Lightning to perform during and after site
+# installation.
+
+# List of additional modules to enable after Lightning is installed.
+modules: { Diff: diff }
+redirect:
+  # A system path to redirect to once installation is complete.
+  path: '/admin/extend'
+  # Optional query string parameters.
+  query: { }
