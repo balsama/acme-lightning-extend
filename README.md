@@ -17,6 +17,10 @@ Exported additional configuration as Feature modules
 Copied the Lightning-provided `lightning.extend.yml` file to sites/default
 Enabled our additional extensions and provided a redirect path via that file
 
+## Demo
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F41Lb1oTHk0" frameborder="0" allowfullscreen></iframe>
+
 ## Instructions
 
 This project is meant as an example, but if you want to try it out:
