@@ -10,12 +10,12 @@ This functionality is useful for developers who want all the benefits of Lightni
 
 To build this example, we:
 
-Started with the [`acquia/lightning-project` template](https://github.com/acquia/lightning-project)
-Added some composer dependencies
-Created a custom module that provides some simple configuration
-Exported additional configuration as Feature modules
-Copied the Lightning-provided `lightning.extend.yml` file to sites/default
-Enabled our additional extensions and provided a redirect path via that file
+* Started with the [`acquia/lightning-project` template](https://github.com/acquia/lightning-project)
+* Added some composer dependencies
+* Created a custom module that provides some simple configuration
+* Exported additional configuration as Feature modules
+* Copied the Lightning-provided `lightning.extend.yml` file to sites/default
+* Enabled our additional extensions and provided a redirect path via that file
 
 ## Demo
 
