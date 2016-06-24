@@ -1,0 +1,26 @@
+schema: '8000'
+favicon:
+  mimetype: image/vnd.microsoft.icon
+  path: profiles/contrib/lightning/favicon.ico
+  url: 'http://localhost/~adam.balsam/project/docroot/profiles/contrib/lightning/favicon.ico'
+  use_default: 0
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: 1
+  node_user_picture: true
+logo:
+  path: profiles/contrib/lightning/lightning.png
+  url: ''
+  use_default: 0
+navbar_position: static-top
+region_wells:
+  navigation: ''
+  navigation_collapsible: ''
+  header: ''
+  highlighted: ''
+  help: ''
+  content: ''
+  sidebar_first: well
+  sidebar_second: well
+  footer: ''

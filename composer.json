@@ -21,7 +21,9 @@
         "drupal-composer/drupal-scaffold": "^2.0.0",
         "cweagans/composer-patches": "1.5.0",
         "drupal/lightning": "dev-8.x-extender",
-        "drupal/diff": "^8.0.0"
+        "drupal/bootstrap": "8.*",
+        "balsama/lightningdemo": "dev-master",
+        "cebe/markdown": "^1.0.0"
     },
     "repositories": [
         {
@@ -31,6 +33,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/acquia/lightning"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/balsama/lightningdemo"
         }
     ],
     "scripts": {
@@ -69,6 +75,12 @@
                 "type:drupal-drush"
             ]
         },
-        "enable-patching": true
+        "enable-patching": true,
+        "patches": {
+            "drupal/core": {
+                "List unmet dependencies instead of just failing":
+                "https://www.drupal.org/files/issues/list-missing-dependencies-2655104-19.patch"
+            }
+        }
     }
 }

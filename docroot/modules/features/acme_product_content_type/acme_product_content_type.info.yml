@@ -1,0 +1,14 @@
+name: 'Product Content Type'
+description: 'Contains the Acme Product content type and associated taxonomy vocabulary.'
+type: module
+core: 8.x
+dependencies:
+  - field
+  - menu_ui
+  - node
+  - path
+  - taxonomy
+  - user
+  - workbench_moderation
+version: 8.x-1.x
+package: Acme

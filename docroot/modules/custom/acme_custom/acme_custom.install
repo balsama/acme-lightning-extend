@@ -1,0 +1,22 @@
+<?php
+use Drupal\node\Entity\NodeType;
+
+/**
+ * Implements hook_install().
+ *
+ * Perform actions to further customize the site after Lightning has been
+ * installed. This module is automatically enabled via the lightning.extend.yml
+ * file.
+ *
+ * @see system_install()
+ */
+
+function acme_custom_install() {
+  // Enable and set acmebootstrap as default theme
+  \Drupal::service('theme_installer')->install(array('acmebootstrap'), TRUE);
+  \Drupal::configFactory()->getEditable('system.theme')->set('default', 'acmebootstrap')->save(TRUE);
+
+  // Delete the content types that ship with lightning
+  NodeType::load('landing_page')->delete();
+  NodeType::load('page')->delete();
+}

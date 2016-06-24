@@ -4,9 +4,94 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1c0c5b83f29c52d92e2a6bdd8e0d108b",
-    "content-hash": "df02ab6718467d314036cd6f59450e88",
+    "hash": "821092c0d552bbe8def4947c45ac9cd6",
+    "content-hash": "1574050d1138f24f115936fe2927a00d",
     "packages": [
+        {
+            "name": "balsama/lightningdemo",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/balsama/lightningdemo.git",
+                "reference": "457d2e5f355ae1b72c385f0e2888d06412c2e056"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/balsama/lightningdemo/zipball/457d2e5f355ae1b72c385f0e2888d06412c2e056",
+                "reference": "457d2e5f355ae1b72c385f0e2888d06412c2e056",
+                "shasum": ""
+            },
+            "type": "drupal-theme",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Bootstrap subtheme with various tweaks to make lightning components more demo-able.",
+            "support": {
+                "source": "https://github.com/balsama/lightningdemo/tree/master",
+                "issues": "https://github.com/balsama/lightningdemo/issues"
+            },
+            "time": "2016-05-06 16:24:50"
+        },
+        {
+            "name": "cebe/markdown",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cebe/markdown.git",
+                "reference": "54a2c49de31cc44e864ebf0500a35ef21d0010b2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cebe/markdown/zipball/54a2c49de31cc44e864ebf0500a35ef21d0010b2",
+                "reference": "54a2c49de31cc44e864ebf0500a35ef21d0010b2",
+                "shasum": ""
+            },
+            "require": {
+                "lib-pcre": "*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "cebe/indent": "*",
+                "facebook/xhprof": "*@dev",
+                "phpunit/phpunit": "4.1.*"
+            },
+            "bin": [
+                "bin/markdown"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "cebe\\markdown\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Carsten Brandt",
+                    "email": "mail@cebe.cc",
+                    "homepage": "http://cebe.cc/",
+                    "role": "Creator"
+                }
+            ],
+            "description": "A super fast, highly extensible markdown parser for PHP",
+            "homepage": "https://github.com/cebe/markdown#readme",
+            "keywords": [
+                "extensible",
+                "fast",
+                "gfm",
+                "markdown",
+                "markdown-extra"
+            ],
+            "time": "2015-03-06 05:28:07"
+        },
         {
             "name": "composer/installers",
             "version": "v1.0.25",
@@ -692,6 +777,37 @@
             "time": "2016-04-05 12:20:31"
         },
         {
+            "name": "drupal/bootstrap",
+            "version": "8.3.0-beta3",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/bootstrap",
+                "reference": "d278e0d9464bda2ff320aaa0d5e541a09fb3b6a1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/bootstrap-8.x-3.0-beta3.zip",
+                "reference": "d278e0d9464bda2ff320aaa0d5e541a09fb3b6a1",
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-3.x": "8.3.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Built to use Bootstrap, a sleek, intuitive, and powerful front-end framework for faster and easier web development.",
+            "homepage": "https://www.drupal.org/project/bootstrap",
+            "time": "2016-03-01 22:10:15"
+        },
+        {
             "name": "drupal/config_update",
             "version": "8.1.1",
             "source": {
@@ -877,6 +993,7 @@
             "type": "drupal-core",
             "extra": {
                 "patches_applied": {
+                    "List unmet dependencies instead of just failing": "https://www.drupal.org/files/issues/list-missing-dependencies-2655104-19.patch",
                     "Plugin Lazy loading can cause usort warning": "https://www.drupal.org/files/issues/Iterating-through-array--2699157.patch"
                 }
             },
@@ -947,38 +1064,6 @@
             "time": "2016-05-06 18:51:13"
         },
         {
-            "name": "drupal/diff",
-            "version": "8.1.0-alpha2",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupal.org/project/diff",
-                "reference": "2216ce763fecb03d441231e1b2b3fdddeb761b53"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/diff-8.x-1.x-alpha2.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "drupal/core": "8.*",
-                "drupal/entity": "8.*"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-8.x-1.x": "8.1.x-dev"
-                }
-            },
-            "notification-url": "https://packagist.drupal-composer.org/downloads/",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "description": "Shows differences between content revisions.",
-            "homepage": "https://www.drupal.org/project/diff",
-            "time": "2016-03-07 18:06:34"
-        },
-        {
             "name": "drupal/embed",
             "version": "8.1.0-rc2",
             "source": {
@@ -1043,16 +1128,16 @@
         },
         {
             "name": "drupal/entity_browser",
-            "version": "8.1.0-alpha3",
+            "version": "8.1.0-alpha4",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/entity_browser.git",
-                "reference": "3d86431a6c70289b7b357875e8bf167a05e7dcc9"
+                "reference": "2ee901318604c1c352695fa88fb14b6696f1f3f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/entity_browser-8.x-1.0-alpha3.zip",
-                "reference": "3d86431a6c70289b7b357875e8bf167a05e7dcc9",
+                "url": "https://ftp.drupal.org/files/projects/entity_browser-8.x-1.0-alpha4.zip",
+                "reference": "2ee901318604c1c352695fa88fb14b6696f1f3f7",
                 "shasum": null
             },
             "require": {
@@ -1076,8 +1161,7 @@
                     "dev-8.x-1.x": "8.1.x-dev"
                 },
                 "patches_applied": {
-                    "2738843 - The view widget should support radio buttons": "https://www.drupal.org/files/issues/2738843-2.patch",
-                    "2741237 - The iframe display plugin should not put dashes in the iframe name": "https://www.drupal.org/files/issues/2741237-3.patch"
+                    "2738843 - The view widget should support radio buttons": "https://www.drupal.org/files/issues/2738843-2.patch"
                 }
             },
             "notification-url": "https://packagist.drupal-composer.org/downloads/",
@@ -1103,7 +1187,7 @@
             ],
             "description": "Provide a generic entity browser/picker/selector.",
             "homepage": "http://drupal.org/project/entity_browser",
-            "time": "2016-05-31 16:42:48"
+            "time": "2016-06-17 12:35:32"
         },
         {
             "name": "drupal/entity_embed",
@@ -1272,12 +1356,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/lightning.git",
-                "reference": "c403b4020af567f41c1209fa1196ef4e598712fb"
+                "reference": "bed0ce34b1339a28cb159d5e8d192a3dd85f70fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/lightning/zipball/c403b4020af567f41c1209fa1196ef4e598712fb",
-                "reference": "c403b4020af567f41c1209fa1196ef4e598712fb",
+                "url": "https://api.github.com/repos/acquia/lightning/zipball/bed0ce34b1339a28cb159d5e8d192a3dd85f70fe",
+                "reference": "bed0ce34b1339a28cb159d5e8d192a3dd85f70fe",
                 "shasum": ""
             },
             "require": {
@@ -1289,7 +1373,7 @@
                 "drupal/core": "^8.1.0",
                 "drupal/ctools": "8.3.0-alpha26",
                 "drupal/embed": "^8.1.0",
-                "drupal/entity_browser": "8.1.0-alpha3",
+                "drupal/entity_browser": "8.1.0-alpha4",
                 "drupal/entity_embed": "8.1.0-alpha1",
                 "drupal/features": "^8.3.0",
                 "drupal/inline_entity_form": "^8.1.0",
@@ -1315,7 +1399,7 @@
                 "behat/mink-goutte-driver": "~1.2",
                 "drupal/coder": "8.*",
                 "drupal/devel": "^8.0.0",
-                "drupal/drupal-extension": "3.1.5",
+                "drupal/drupal-extension": "^3.2",
                 "drush/drush": "^9.0",
                 "jakoch/phantomjs-installer": "1.9.8",
                 "jcalderonzumba/gastonjs": "~1.0.2",
@@ -1343,8 +1427,7 @@
                         "2747739 - Mega patch": "https://www.drupal.org/files/issues/ctools--8.x-3.0-alpha26--1fe3649.patch"
                     },
                     "drupal/entity_browser": {
-                        "2738843 - The view widget should support radio buttons": "https://www.drupal.org/files/issues/2738843-2.patch",
-                        "2741237 - The iframe display plugin should not put dashes in the iframe name": "https://www.drupal.org/files/issues/2741237-3.patch"
+                        "2738843 - The view widget should support radio buttons": "https://www.drupal.org/files/issues/2738843-2.patch"
                     },
                     "drupal/entity_embed": {
                         "2656062 - Hide Next button during Selection if Entity Browser is enabled": "https://www.drupal.org/files/issues/2656062-8.patch"
@@ -1359,7 +1442,7 @@
                         "2664682 - Implement admin UI for editing Panelizer defaults": "https://www.drupal.org/files/issues/2664682-45.patch"
                     },
                     "drupal/panels": {
-                        "2747739 - Mega Patch": "https://www.drupal.org/files/issues/panels--beta4-4c4a3a7--2747739-2.patch",
+                        "2747739 - Mega Patch": "https://www.drupal.org/files/issues/panels--beta4-4c4a3a7--2747739-17--binary.patch",
                         "2667754 - Allow other modules to disable the IPE based on custom logic": "https://www.drupal.org/files/issues/2667754-3.patch",
                         "Bandaid tempstore patch": "https://www.drupal.org/files/issues/bandaid.patch",
                         "2697587 - Wizard API integration": "https://www.drupal.org/files/issues/2697587-42.patch"
@@ -1398,7 +1481,7 @@
                 "source": "https://github.com/acquia/lightning/tree/8.x-extender",
                 "issues": "https://github.com/acquia/lightning/issues"
             },
-            "time": "2016-06-21 17:24:41"
+            "time": "2016-06-23 20:17:55"
         },
         {
             "name": "drupal/media_entity",
@@ -1738,12 +1821,6 @@
             "extra": {
                 "branch-alias": {
                     "dev-8.x-3.x": "8.3.x-dev"
-                },
-                "patches_applied": {
-                    "2747739 - Mega Patch": "https://www.drupal.org/files/issues/panels--beta4-4c4a3a7--2747739-2.patch",
-                    "2667754 - Allow other modules to disable the IPE based on custom logic": "https://www.drupal.org/files/issues/2667754-3.patch",
-                    "Bandaid tempstore patch": "https://www.drupal.org/files/issues/bandaid.patch",
-                    "2697587 - Wizard API integration": "https://www.drupal.org/files/issues/2697587-42.patch"
                 }
             },
             "notification-url": "https://packagist.drupal-composer.org/downloads/",
@@ -4632,6 +4709,38 @@
             "time": "2015-06-14 21:17:01"
         },
         {
+            "name": "drupal/diff",
+            "version": "8.1.0-alpha2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/diff",
+                "reference": "2216ce763fecb03d441231e1b2b3fdddeb761b53"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/diff-8.x-1.x-alpha2.zip",
+                "reference": "2216ce763fecb03d441231e1b2b3fdddeb761b53",
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*",
+                "drupal/entity": "8.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Shows differences between content revisions.",
+            "homepage": "https://www.drupal.org/project/diff",
+            "time": "2016-03-07 18:06:34"
+        },
+        {
             "name": "drupal/drupal-driver",
             "version": "v1.2.1",
             "source": {
@@ -6292,7 +6401,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "drupal/lightning": 20
+        "drupal/lightning": 20,
+        "balsama/lightningdemo": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

@@ -1,0 +1,6 @@
+name: 'Lightning Settings'
+description: 'Disables the auto-creation of roles.'
+type: module
+core: 8.x
+version: 8x.-1.x
+package: Acme

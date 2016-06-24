@@ -1,4 +1,4 @@
-acme_custom.readme:
+acme_custom.welcome:
   path: '/acme-install-complete'
   defaults:
     _title: 'Welcome to Lightning + Acme!'
