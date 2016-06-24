@@ -4,7 +4,6 @@
 # List of additional modules to enable after Lightning is installed.
 modules:
   - features
-  - features_ui
   - acme_custom
   - acme_product_content_type
   - acme_theme_settings

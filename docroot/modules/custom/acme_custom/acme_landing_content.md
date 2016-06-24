@@ -4,7 +4,7 @@ Using the `lightning.extender.yml` file provided with Lightning, the following h
 
 * The Acme Custom module has been enabled which:
   * Sets a new theme
-  * Delete's the content types that ship with Lightning
+  * Deletes the content types that ship with Lightning
 * The Features module has been enabled and the following Features have been enabled:
   * Lightning Settings: Disables Lightning's auto-creation of roles
   * Product: Creates a Product content type and associated taxonomy
