@@ -27,7 +27,22 @@ redirect:
 
 This functionality is useful for developers who want all the benefits of Lightning but need additional out of the box code, configuration, and user experience.
 
-## Example Details
+## Details
+
+### What it does post-installation
+
+This implementation of Lightning Extend does the following:
+
+* Enables the Acme Custom module, which:
+  * Sets a new theme
+  * Deletes the content types that ship with Lightning
+* Enables the Features module and activates the following Features:
+  * Lightning Settings: _Disables Lightning's auto-creation of roles_
+  * Product: _Creates a Product content type and associated taxonomy_
+  * Theme Settings: _Defines some settings for the Acme theme_
+* Redirects the user to a custom messaging page
+
+### How it's built
 
 To build this example, we:
 
@@ -37,6 +52,7 @@ To build this example, we:
 * Exported additional configuration as Feature modules
 * Copied the Lightning-provided `lightning.extend.yml` file to sites/default
 * Enabled our additional extensions and provided a redirect path via that file
+
 
 ## Result
 
