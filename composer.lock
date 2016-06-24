@@ -1356,12 +1356,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/lightning.git",
-                "reference": "ffeb930e5ccf513e3ada1e4ca6c9be29259557f0"
+                "reference": "1e57e0f6315c952dc230013ea8674f5e10d36b9a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/lightning/zipball/ffeb930e5ccf513e3ada1e4ca6c9be29259557f0",
-                "reference": "ffeb930e5ccf513e3ada1e4ca6c9be29259557f0",
+                "url": "https://api.github.com/repos/acquia/lightning/zipball/1e57e0f6315c952dc230013ea8674f5e10d36b9a",
+                "reference": "1e57e0f6315c952dc230013ea8674f5e10d36b9a",
                 "shasum": ""
             },
             "require": {
@@ -1481,7 +1481,7 @@
                 "source": "https://github.com/acquia/lightning/tree/8.x-extender",
                 "issues": "https://github.com/acquia/lightning/issues"
             },
-            "time": "2016-06-24 15:39:36"
+            "time": "2016-06-24 18:29:43"
         },
         {
             "name": "drupal/media_entity",
