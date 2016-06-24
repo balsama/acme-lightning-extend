@@ -2,9 +2,18 @@
 # installation.
 
 # List of additional modules to enable after Lightning is installed.
-modules: { Diff: diff }
+modules:
+  - features
+  - features_ui
+  - acme_custom
+  - acme_product_content_type
+  - acme_theme_settings
+  - acme_lightning_settings
+
+# A system path to redirect to once installation is complete.
 redirect:
-  # A system path to redirect to once installation is complete.
-  path: '/admin/extend'
+  path: /acme-install-complete
+
   # Optional query string parameters.
   query: { }
+
