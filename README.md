@@ -1,6 +1,6 @@
 # Acme Lightning Extend
 
-This is an example project that extends the Lightning Distribution of Drupal - giving users a different out of the box experience than Lightning normally would with additional code and configuration. It makes use of the [Lightning Extend feature](https://www.drupal.org/node/2734507#comment-11298551) by defining additional dependencies in a `lightning.extend.yml` file:
+This is an example project that extends the Lightning Distribution of Drupal. It gives users a different out-of-the-box experience than Lightning normally would, with additional code and configuration. It makes use of the [Lightning Extend feature](https://www.drupal.org/node/2734507#comment-11298551) by defining additional dependencies in a `lightning.extend.yml` file:
 
 ```
 # Defines additional tasks for Lightning to perform after initial profile
@@ -25,7 +25,7 @@ redirect:
 
 ## Why?
 
-This functionality is useful for developers who want all the benefits of Lightning but need additional out of the box code, configuration, and user experience.
+This functionality is useful for developers who want all the benefits of Lightning but need additional out-of-the-box code, configuration, and user experience.
 
 ## Details
 
@@ -56,7 +56,7 @@ To build this example, we:
 
 ## Result
 
-On the left is what the user is presented with after installing "Vanilla" Lightning. The image on the right is what a user would see after installing a version of Lightning that has been "Extended" by Acme. This doesn't mean to imply that customizations are limited to the presentation layer (Acme Lightning Extend also provides Node Bundles and overrides some Lightning settings, for example), it's just the easiest to demonstrate.
+On the left is what the user is presented with after installing "Vanilla" Lightning. On the right is what a user would see after installing a version of Lightning that has been "Extended" by Acme. (Customizations are not limited to the presentation layer, it's just the easiest to demonstrate. For example, Acme Lightning Extend also provides a Node Bundle and overrides some Lightning settings.)
 
 | Vanilla Lightning OOTB                                     | Acme Extended Lightning OOTB                                              |
 |------------------------------------------------------------|---------------------------------------------------------------------------|
