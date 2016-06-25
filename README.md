@@ -56,7 +56,15 @@ To build this example, we:
 
 ## Result
 
-![Demo](extend-lightning.gif)
+On the left is what the user is presented with after installing "Vanilla" Lightning. The image on the right is what a user would see after installing a version of Lightning that has been "Extended" by Acme. This doesn't mean to imply that customizations are limited to the presentation layer (Acme Lightning Extend also provides Node Bundles and overrides some Lightning settings, for example), it's just the easiest to demonstrate.
+
+| Vanilla Lightning OOTB                                     | Acme Extended Lightning OOTB                                              |
+|------------------------------------------------------------|---------------------------------------------------------------------------|
+| ![OOTB Vanilla](demo-assets/lightning--install-result.png) | ![OOTB Acme Extended](demo-assets/lightning-extended--install-result.png) |
+
+The following animation shows the installation process of Lightning, when extended by Acme, as seen by the Site Builder.
+
+![Demo](demo-assets/extend-lightning.gif)
 
 ## Instructions
 
