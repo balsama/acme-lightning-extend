@@ -72,5 +72,6 @@ This project is meant as an example, but if you want to try it out:
 
 * Clone this repo
 * From VCS root, run `composer install`
-* Point your browser to the docroot directory inside VCS root. _(You can also use drush to install the site, but a large part of this functionality is for users who don't have CLI access)_
+* Modify docroot/sites/default/settings.php to match your database settings
+* Point your browser to install.php within docroot/core. _(You can also use drush to install the site, but a large part of this functionality is for users who don't have CLI access)_
 
