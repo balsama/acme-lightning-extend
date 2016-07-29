@@ -22,6 +22,6 @@ modules:
 
 # A system path to redirect to once installation is complete.
 redirect:
-  path: /acme-install-complete
+  path: acme-install-complete
   # Optional query string parameters.
   query: { }

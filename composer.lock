@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a4f91803eaee07eefebcac61a70e8c6e",
-    "content-hash": "86a07464109dc0b242ff6bd40766bd39",
+    "hash": "0e7d3b8677ac11a2df4a4ddf94b1c599",
+    "content-hash": "95ee614bc7c22d796f5e81ee48bdd561",
     "packages": [
         {
             "name": "balsama/lightningdemo",
@@ -997,7 +997,6 @@
             "type": "drupal-core",
             "extra": {
                 "patches_applied": {
-                    "List unmet dependencies instead of just failing": "https://www.drupal.org/files/issues/list-missing-dependencies-2655104-19.patch",
                     "Plugin Lazy loading can cause usort warning": "https://www.drupal.org/files/issues/Iterating-through-array--2699157.patch"
                 }
             },
@@ -1353,11 +1352,17 @@
         },
         {
             "name": "drupal/lightning",
-            "version": "dev-8.x-1.x",
+            "version": "8.1.02",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/lightning.git",
                 "reference": "04b967e8b8fa6d65710faeb4ca2b8d3914b947cf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/lightning-8.x-1.02.zip",
+                "reference": null,
+                "shasum": null
             },
             "require": {
                 "composer/installers": "^1.0",
@@ -1526,6 +1531,9 @@
                 },
                 "branch-alias": {
                     "dev-8.x-1.x": "8.1.x-dev"
+                },
+                "patches_applied": {
+                    "2775425 - Lightning Extender Redirect takes users to Already installed error page": "https://www.drupal.org/files/issues/2775425-2-extender-regression.diff"
                 }
             },
             "notification-url": "https://packagist.drupal-composer.org/downloads/",
@@ -1998,15 +2006,15 @@
         },
         {
             "name": "drupal/video_embed_field",
-            "version": "8.1.1",
+            "version": "8.1.2",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/video_embed_field",
-                "reference": "531f0c56883307a85c76539e0bf14e4d8a727393"
+                "reference": "811376244c729bc536ec37f7b63557e8ce6bab2a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/video_embed_field-8.x-1.1.zip",
+                "url": "https://ftp.drupal.org/files/projects/video_embed_field-8.x-1.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -2041,19 +2049,19 @@
             ],
             "description": "Provides a field type for displaying videos from 3rd party providers such as YouTube and Vimeo.",
             "homepage": "https://www.drupal.org/project/video_embed_field",
-            "time": "2016-06-19 23:58:17"
+            "time": "2016-07-22 09:03:05"
         },
         {
             "name": "drupal/views_infinite_scroll",
-            "version": "8.1.0",
+            "version": "8.1.2",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/views_infinite_scroll",
-                "reference": "e8029d9bc84174b175f7881073525486b6bfde61"
+                "reference": "d00719776edfcd16c7b4b02cc4a37395cc635af0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/views_infinite_scroll-8.x-1.0.zip",
+                "url": "https://ftp.drupal.org/files/projects/views_infinite_scroll-8.x-1.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -2065,9 +2073,6 @@
             "extra": {
                 "branch-alias": {
                     "dev-8.x-1.x": "8.1.x-dev"
-                },
-                "patches_applied": {
-                    "2701881 - View \"No results\" area doesn't appear even view has no results": "https://www.drupal.org/files/issues/no-wrapper-empty-rows-2701881-2.patch"
                 }
             },
             "notification-url": "https://packagist.drupal-composer.org/downloads/",
@@ -2076,7 +2081,7 @@
             ],
             "description": "A pager which allows an infinite scroll effect for views.",
             "homepage": "https://www.drupal.org/project/views_infinite_scroll",
-            "time": "2016-03-21 13:32:00"
+            "time": "2016-07-23 12:06:51"
         },
         {
             "name": "drupal/workbench_moderation",
@@ -2450,12 +2455,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/J7mbo/twitter-api-php.git",
-                "reference": "a89ce3e294484aad7ae13dbabe45fb3928024ef8"
+                "reference": "5a1ac487adc248b59a73d5edc002b57f8dc211b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/J7mbo/twitter-api-php/zipball/a89ce3e294484aad7ae13dbabe45fb3928024ef8",
-                "reference": "a89ce3e294484aad7ae13dbabe45fb3928024ef8",
+                "url": "https://api.github.com/repos/J7mbo/twitter-api-php/zipball/5a1ac487adc248b59a73d5edc002b57f8dc211b8",
+                "reference": "5a1ac487adc248b59a73d5edc002b57f8dc211b8",
                 "shasum": ""
             },
             "require": {
@@ -2492,7 +2497,7 @@
                 "php",
                 "twitter"
             ],
-            "time": "2015-08-03 21:35:18"
+            "time": "2016-07-21 13:33:46"
         },
         {
             "name": "masterminds/html5",
@@ -5611,16 +5616,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "4.8.26",
+            "version": "4.8.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "fc1d8cd5b5de11625979125c5639347896ac2c74"
+                "reference": "c062dddcb68e44b563f66ee319ddae2b5a322a90"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/fc1d8cd5b5de11625979125c5639347896ac2c74",
-                "reference": "fc1d8cd5b5de11625979125c5639347896ac2c74",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/c062dddcb68e44b563f66ee319ddae2b5a322a90",
+                "reference": "c062dddcb68e44b563f66ee319ddae2b5a322a90",
                 "shasum": ""
             },
             "require": {
@@ -5679,7 +5684,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2016-05-17 03:09:28"
+            "time": "2016-07-21 06:48:14"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -6430,7 +6435,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "drupal/lightning": 20,
         "balsama/lightningdemo": 20
     },
     "prefer-stable": true,

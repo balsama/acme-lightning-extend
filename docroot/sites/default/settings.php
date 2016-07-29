@@ -285,7 +285,7 @@ $config_directories = array();
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = 'ybg3sNkFZ-oMPtR0_k50c8ZmGEXvlVczbqtP-xrjZ40CxCXm6uZpPbO-oXaiFSUsb0ldJjd1Xg';
+$settings['hash_salt'] = 'paA2WB-XenlrlFQ0fmD4FM103ELbYbhNPCnBigywYBQgZY5kXLoXWuB9KthJxZ3QuXcPmlrZgw';
 
 /**
  * Deployment identifier.
@@ -325,9 +325,6 @@ $settings['update_free_access'] = FALSE;
  *
  * You can also define an array of host names that can be accessed directly,
  * bypassing the proxy, in $settings['http_client_config']['proxy']['no'].
- *
- * If these settings are not configured, the system environment variables
- * HTTP_PROXY, HTTPS_PROXY, and NO_PROXY on the web server will be used instead.
  */
 # $settings['http_client_config']['proxy']['http'] = 'http://proxy_user:proxy_pass@example.com:8080';
 # $settings['http_client_config']['proxy']['https'] = 'http://proxy_user:proxy_pass@example.com:8080';
@@ -722,10 +719,10 @@ $databases['default']['default'] = array (
   'username' => 'root',
   'password' => 'root',
   'prefix' => '',
-  'host' => '127.0.01',
-  'port' => '',
+  'host' => '127.0.0.1',
+  'port' => '3306',
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',
 );
 $settings['install_profile'] = 'lightning';
-$config_directories['sync'] = 'sites/default/files/config_vEMJTUsDoN-1AKMkcmWfwrpl3cvtdHeWpnYMg3Fc96K8-T9VUplZeOTjri83FKYwS6rBaQ_20g/sync';
+$config_directories['sync'] = 'sites/default/files/config_eHdAfByMe4-bmZ3fgqzBIVGbMPniEm1gFsGXD6hh3dd-s2xBZFr5XqeSsXJbw2r9A9_kzyha4Q/sync';

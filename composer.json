@@ -20,7 +20,7 @@
         "composer/installers": "^1.0",
         "drupal-composer/drupal-scaffold": "^2.0.0",
         "cweagans/composer-patches": "1.5.0",
-        "drupal/lightning": "dev-8.x-1.x",
+        "drupal/lightning": "^8.1.0",
         "drupal/bootstrap": "8.*",
         "balsama/lightningdemo": "dev-master",
         "cebe/markdown": "^1.0.0"
@@ -73,9 +73,9 @@
         },
         "enable-patching": true,
         "patches": {
-            "drupal/core": {
-                "List unmet dependencies instead of just failing":
-                "https://www.drupal.org/files/issues/list-missing-dependencies-2655104-19.patch"
+            "drupal/lightning": {
+                "2775425 - Lightning Extender Redirect takes users to Already installed error page":
+                "https://www.drupal.org/files/issues/2775425-2-extender-regression.diff"
             }
         }
     }
