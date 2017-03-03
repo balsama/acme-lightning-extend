@@ -1,3 +1,5 @@
+NOTICE: The Lightning Extend file will soon be removed. See https://github.com/balsama/lightning-extend-to-subprofile-convert-example for more information.
+
 # Acme Lightning Extend
 
 This is an example project that extends the Lightning Distribution of Drupal. It gives users a different out-of-the-box experience than Lightning normally would, with additional code and configuration. It makes use of the [Lightning Extend feature](https://www.drupal.org/node/2734507#comment-11298551) by defining additional dependencies in a `lightning.extend.yml` file:
