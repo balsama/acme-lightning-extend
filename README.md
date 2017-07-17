@@ -1,4 +1,4 @@
-NOTICE: The Lightning Extend file will soon be removed. See https://github.com/balsama/lightning-extend-to-subprofile-convert-example for more information.
+> NOTICE: The Lightning Extend file has been removed. See https://github.com/balsama/lightning-extend-to-subprofile-convert-example for more information.
 
 # Acme Lightning Extend
 
